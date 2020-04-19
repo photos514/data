@@ -11,14 +11,14 @@ import pandas as pd
 
 # Uses an External Stylesheet
 # Use a css file from your GitHub Pages site 
-external_stylesheets = ['https://usfmumaanalyticsteam.github.io/learn.css']
+external_stylesheets = ['https://photos514.github.io/learn.css']
 
 # Creates the app to instantiate the content for the Dashboard and use the external_stylesheets
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 # Use a csv dataset from a repository in your GitHub account. Use the Raw URL to expose the data to the Python dataframe
-df = pd.read_csv('https://raw.githubusercontent.com/USFMumaAnalyticsTeam/data/master/gdp-life-exp-2007.csv')
-df2 = pd.read_csv('https://raw.githubusercontent.com/USFMumaAnalyticsTeam/data/master/usa-agricultural-exports-2011.csv')
+df = pd.read_csv('https://https://raw.githubusercontent.com/photos514/data/master/gdp-life-exp-2007.csv')
+df2 = pd.read_csv('https://https://raw.githubusercontent.com/photos514/data/master/usa-agricultural-exports-2011.csv')
 
 
 # Custom function used to generate a data table from a dataframe
