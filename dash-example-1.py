@@ -17,8 +17,8 @@ external_stylesheets = ['https://photos514.github.io/learn.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 # Use a csv dataset from a repository in your GitHub account. Use the Raw URL to expose the data to the Python dataframe
-df = pd.read_csv('https://https://raw.githubusercontent.com/photos514/data/master/gdp-life-exp-2007.csv')
-df2 = pd.read_csv('https://https://raw.githubusercontent.com/photos514/data/master/usa-agricultural-exports-2011.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/photos514/data/master/gdp-life-exp-2007.csv')
+df2 = pd.read_csv('https://raw.githubusercontent.com/photos514/data/master/usa-agricultural-exports-2011.csv')
 
 
 # Custom function used to generate a data table from a dataframe
